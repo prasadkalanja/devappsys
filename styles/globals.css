@@ -1,0 +1,74 @@
+/* @import url('http://fonts.cdnfonts.com/css/heebo?styles=20328');
+@import url('http://fonts.cdnfonts.com/css/arial-rounded-mt-bold?styles=15372'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+html,
+body {
+
+  /* font-family: 'Kanit'; 
+  font-family:'arial',sans-serif;
+  font-family: 'Arial Rounded MT Bold'sans-serif;   
+  font-family:system-ui; */
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+
+* {
+  box-sizing: border-box;
+
+  }
+  
+
+  h1,
+  h5,
+  h6 {
+    color: #fff;
+  }
+  h4{
+    text-align: center;
+  }
+  
+        section {
+          padding-top: 150px;
+        }
+        footer {
+          padding-bottom: 10px;
+          padding-top: 60px;
+          border-top: 1px solid #000;
+        }
+    .primary__btn {
+      background: #000 !important;
+      padding: 20px 25px !important;
+      border: 1px solid #01d293 !important;
+    }
+        .primary__btn a {
+          text-decoration: none;
+          color: #01d293;
+          background: transparent !important;
+        }
+    
+        .secondary__btn {
+          background: transparent;
+          border: none;
+          outline: none;
+          padding: 7px 25px;
+        }
+        .secondary__btn a{
+          color: #01d293 !important;
+        }
+        .primary__btn a:hover,
+        .secondary__btn a:hover{
+          color: unset;
+        }
+
+        
+
+       
